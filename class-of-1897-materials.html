@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
   body{background:#0A0A0A;color:#FFF;font-family:'Barlow',sans-serif;font-weight:300;overflow-x:hidden}
 
   /* NAV */
-  nav{position:fixed;top:0;left:0;width:100%;z-index:100;background:rgba(10,10,10,.95);border-bottom:1px solid rgba(255,255,255,.07);padding:14px 48px;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(10px)}
+  
   .nav-logo{text-decoration:none;display:flex;flex-direction:column;gap:2px}
   .nav-logo-name{font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:.05em;color:#FFF;line-height:1}
   .nav-logo-div{display:flex;align-items:center;gap:5px}
@@ -81,7 +82,7 @@
   .cta-btn:hover{opacity:.85}
 
   /* FOOTER */
-  footer{background:#0A0A0A;padding:28px 48px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;align-items:center}
+  
   .ft-logo{font-family:'Bebas Neue',sans-serif;font-size:16px;color:#FFF}
   .ft-claim{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:7px;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.2)}
   .ft-link{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.28);text-decoration:none;transition:color .2s}
@@ -98,7 +99,7 @@
     .craft{padding:56px 24px}
     .craft-grid{grid-template-columns:1fr}
     .cta-section{padding:56px 24px}
-    footer{flex-direction:column;gap:12px;text-align:center;padding:24px}
+    
   }
   .reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s ease}
   .reveal.visible{opacity:1;transform:translateY(0)}
@@ -117,18 +118,7 @@
 </head>
 <body>
 
-<nav>
-  <a href="https://afalcitelli-ui.github.io/collectiveuphoria/" class="nav-logo">
-    <span class="nav-logo-name">Collective Euphoria</span>
-    <div class="nav-logo-div">
-      <div class="nav-logo-line"></div>
-      <span class="nav-logo-star">★</span>
-      <div class="nav-logo-line"></div>
-    </div>
-    <span class="nav-logo-claim">Wear What You Stand For</span>
-  </a>
-  <a href="https://afalcitelli-ui.github.io/collectiveuphoria/" class="nav-back">Back to Project</a>
-</nav>
+
 
 <!-- HERO -->
 <div class="hero">
@@ -219,20 +209,7 @@
   </div>
 </div>
 
-<!-- CTA -->
-<div class="cta-section reveal">
-  <h2 class="cta-title">1,897 pieces.<br>One per year.</h2>
-  <p class="cta-sub">Subscribers only · Coming Soon</p>
-  <a href="https://afalcitelli-ui.github.io/collectiveuphoria/" class="cta-btn">Back to Collective Euphoria</a>
-</div>
 
-<footer>
-  <div>
-    <p class="ft-logo">Collective Euphoria</p>
-    <p class="ft-claim">Wear What You Stand For</p>
-  </div>
-  <a href="https://afalcitelli-ui.github.io/collectiveuphoria/" class="ft-link">collectiveuphoria →</a>
-</footer>
 
 <script>
 const io = new IntersectionObserver(entries => {
